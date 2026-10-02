@@ -467,8 +467,8 @@
 
         // Collection window, expressed in Eastern time. Covers all of Aug 14 AND
         // Aug 15 (end is exclusive: midnight starting Aug 16 Eastern).
-        const START_DATE = '2026-04-08T00:00:00-04:00';
-        const END_DATE   = '2026-04-10T00:00:00-04:00';
+        const START_DATE = '2026-04-07T00:00:00-04:00';
+        const END_DATE   = '2026-04-09T00:00:00-04:00';
 
         // Max pages of 2000 to pull from the Graph API (safety cap).
         const MAX_REQUESTS = 40;
@@ -996,7 +996,7 @@
         viewer.on('position', updateMiniMapPosition);
         viewer.on('pov', updateMiniMapPosition);
         document.getElementById('mapillary-link-btn').addEventListener('click', () => {
-            window.open('https://www.mapillary.com/app/user/TimmonsPavement?lat=37.783714&lng=-79.4420452&z=14&dateFrom=2026-04-08&username%5B%5D=TimmonsPavement&dateTo=2026-04-09&pKey=903213492833569', '_blank');
+            window.open('https://www.mapillary.com/app/user/TimmonsPavement?lat=37.783714&lng=-79.4420452&z=14&dateFrom=2026-04-07&username%5B%5D=TimmonsPavement&dateTo=2026-04-09&pKey=903213492833569', '_blank');
         });
         document.getElementById('reload-minimap-btn').addEventListener('click', () => {
             const btn = document.getElementById('reload-minimap-btn');
